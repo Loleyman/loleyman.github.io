@@ -20,7 +20,12 @@ const followMouseFlashlight = ({ clientX, clientY }) => {
 
 container.addEventListener('mousemove', followMouseFlashlight);
 
-function play() {
-    var audio = document.getElementById("audio");
-    audio.cloneNode().play()
+function playd() {
+    var audiod = document.getElementById("audiod");
+    audiod.cloneNode().play()
+  }
+
+  function playu() {
+    var audiou = document.getElementById("audiou");
+    audiou.cloneNode().play()
   }
