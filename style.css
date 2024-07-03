@@ -1,0 +1,179 @@
+body {background-image: url("/bg1.svg");}
+
+.flashlight {
+    position: absolute;
+    border-radius: 50%;
+    background-color: transparent; 
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.6);
+    filter: url(#blur-filter); 
+}
+
+.illuminated-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.contain {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: whitesmoke;
+    border-color: #5c3794;
+    border-style: solid;
+    border-width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    opacity: 0.3;
+    transition-duration: 0.3s;
+    text-align: center;
+    padding: 0;
+    box-shadow: -15px 15px 0px 0px #261a38;
+}
+
+.logo:hover {
+    opacity: 1.0;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.logo:active {
+    opacity: 0.5;
+    transition-duration: 0.1s;
+    box-shadow: 0px 0px 0px 0px #261a38;
+    translate: -15px 15px;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 115px;
+    font-size: 50px;
+    animation-name: fontChange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none;
+}
+
+@keyframes fontChange {
+    0% {
+        font-family: "Shadows Into Light", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+      5% {
+        font-family: "Caveat", cursive;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+      10% {
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      15% {
+        font-family: "Tiny5", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      20% {
+        font-family: "Chakra Petch", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      25% {
+        font-family: "LXGW WenKai TC", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+      30% {
+        font-family: "Margarine", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      35% {
+        font-family: "Exo 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+      40% {
+        font-family: "Quicksand", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+      45% {
+        font-family: "Playwrite GB S", cursive;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+      50% {
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+      55% {
+        font-family: "Baskervville SC", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      60% {
+        font-family: "Ga Maamli", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      65% {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      70% {
+        font-family: "Fustat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+      75% {
+        font-family: "Beiruti", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+      80% {
+        font-family: "Jacquard 24", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+      85% {
+        font-family: "Neucha", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+      90% {
+        font-family: "Nanum Pen Script", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+      95% {
+        font-family: "Jersey 25", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      100% {
+        font-family: "Shadows Into Light", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+  }
